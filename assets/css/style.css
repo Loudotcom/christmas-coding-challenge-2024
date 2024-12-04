@@ -7,3 +7,12 @@ div {
     background-color: black;
     color: white;
 }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF007F;
+    color: white;
+}
