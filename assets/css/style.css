@@ -16,3 +16,8 @@ div {
     background-color: #FF007F;
     color: white;
 }
+
+li {
+    text-decoration: none;
+    display: inline-block;
+}
