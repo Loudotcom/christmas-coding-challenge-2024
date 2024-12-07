@@ -15,9 +15,16 @@ div {
     width: 100%;
     background-color: #FF007F;
     color: white;
+    display: flex;
+    justify-content: center;
+    height: 8%;
 }
 
 li {
-    text-decoration: none;
     display: inline-block;
+}
+
+.icon-link {
+    color: black;
+    text-decoration: none;
 }
