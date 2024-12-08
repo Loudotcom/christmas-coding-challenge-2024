@@ -1,12 +1,18 @@
+/* Navbar */
+
 .nav-logo {
     max-height: 100px; 
     width: auto;
 }
 
-div {
+/* Body */
+
+.main-body-text {
     background-color: black;
     color: white;
 }
+
+/* Footer  */
 
 .footer {
     position: fixed;
@@ -22,9 +28,16 @@ div {
 
 li {
     display: inline-block;
+    padding: 15px ;
+
 }
 
 .icon-link {
     color: black;
     text-decoration: none;
+}
+
+#copyright {
+    color: black;
+    font-weight: 400;
 }
