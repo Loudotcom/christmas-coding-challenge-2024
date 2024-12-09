@@ -6,6 +6,9 @@
 }
 
 /* Body */
+body {
+    background-color: black;
+}
 
 .main-body-text {
     background-color: black;
@@ -24,12 +27,14 @@
     display: flex;
     justify-content: center;
     height: 8%;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: black;
 }
 
 li {
     display: inline-block;
-    padding: 15px ;
-
+    padding: 10px ;
 }
 
 .icon-link {
@@ -40,4 +45,5 @@ li {
 #copyright {
     color: black;
     font-weight: 400;
+    display: inline;
 }
