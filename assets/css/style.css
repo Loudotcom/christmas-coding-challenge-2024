@@ -25,11 +25,24 @@ body {
     background-color: #FF007F;
     color: white;
     display: flex;
-    justify-content: center;
+    align-items: center;
     height: 8%;
     border-top-width: 5px;
     border-top-style: solid;
     border-top-color: black;
+    padding: 0 10px;
+}
+
+#copyright {
+    color: black;
+    font-weight: 400;
+    flex: 0 0 auto;
+}
+
+.social-icons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 li {
@@ -40,10 +53,4 @@ li {
 .icon-link {
     color: black;
     text-decoration: none;
-}
-
-#copyright {
-    color: black;
-    font-weight: 400;
-    display: inline;
 }
