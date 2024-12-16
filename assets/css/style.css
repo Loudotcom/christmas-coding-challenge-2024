@@ -15,7 +15,7 @@
     width: auto;
 }
 
-/* Body */
+/* Body Homepage*/
 body {
     background-color: black;
 }
@@ -23,6 +23,19 @@ body {
 .main-body-text {
     background-color: black;
     color: white;
+}
+
+/* Body Gallery Page */
+
+.gallery-bdy {
+    background-color: black;
+}
+
+.gallery-img {
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 5%;
+
 }
 
 /* Footer  */
