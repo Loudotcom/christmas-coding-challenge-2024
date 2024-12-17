@@ -38,6 +38,14 @@ body {
 
 }
 
+/* Body Price List Page */
+
+.pricelist-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer  */
 
 .footer {
