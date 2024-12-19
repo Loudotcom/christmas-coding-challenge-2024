@@ -10,8 +10,13 @@
   
 /* Navbar */
 
+.navbar {
+    background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
+    border-bottom: solid hotpink;
+}
+
 .nav-logo {
-    max-height: 100px; 
+    max-height: 80px; 
     width: auto;
 }
 
@@ -31,19 +36,10 @@
 }
 
 
-/* body {
-    background-color: black;
-} */
-
-/* .main-body-text {
-    background-color: black;
-    color: white;
-} */
-
 /* Body Gallery Page */
 
 .gallery-bdy {
-    background-color: black;
+    background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
 }
 
 .gallery-img {
@@ -55,9 +51,17 @@
 
 /* Body Price List Page */
 
+.text-box {
+    background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
+    color: whitesmoke;
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+
 .price-list-body {
     background-image: url(/assets/images/ayana-wyse-t2bj6unVYoM-unsplash.jpg);
-    color: white;
+    color: whitesmoke;
 }
 
 .pricelist-heading {
@@ -77,8 +81,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #FF007F;
-    color: white;
+    background-image: url(/assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg);
     display: flex;
     align-items: center;
     max-height: 4.5rem;
@@ -89,7 +92,7 @@
 }
 
 #copyright {
-    color: black;
+    color: rgb(237, 23, 130);
     font-weight: 400;
     flex: 0 0 auto;
     display: flex;
