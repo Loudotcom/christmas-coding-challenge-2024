@@ -10,9 +10,16 @@
   
 /* Navbar */
 
-.navbar {
-    background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
-    border-bottom: solid hotpink;
+/* .navbar {
+    background-color: rgba(24, 24, 24, 0.9);
+    border: solid #FF1D8E;
+    border-style: inset;
+} */
+
+.main-navbar {
+    background-color: rgba(24, 24, 24, 0.9) !important;
+    border: solid #FF1D8E;
+    border-style: inset;
 }
 
 .nav-logo {
@@ -31,16 +38,16 @@
 }
 
 .home-container {
+    /* margin: auto; */
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     padding: 20px;
 }
 
 .main-body-text {
         width: 100%;
-        max-width: 800px; /* Adjust as needed */
+        max-width: 800px;
       }
 
 
@@ -50,11 +57,17 @@
     padding: 20px;
     text-align: center;
       }
+
+.icon-link-page {
+    color: whitesmoke;
+}
+
+
 /* Body Gallery Page */
 
-.gallery-bdy {
+/* .gallery-bdy {
     background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
-}
+} */
 
 .gallery-img {
     max-height: fit-content;
@@ -65,21 +78,9 @@
 
 /* Body Price List Page */
 
-/* .text-box {
-    background-color: rgba(24, 24, 24, 0.9);
-    color: whitesmoke;
-    float: none;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .price-list-body {
     background-image: url(/assets/images/ayana-wyse-t2bj6unVYoM-unsplash.jpg);
     color: whitesmoke;
-    
 }
 
 .main-pl-body {
@@ -103,19 +104,19 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: url(/assets/images/joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+    background-color: rgb(245, 245, 245, 0.6);
     display: flex;
     align-items: center;
     max-height: 4.5rem;
     border-top-width: 5px;
-    border-top-style: solid;
-    border-top-color: black;
+    border: inset;
+    border-color: black;
     padding: 0 10px;
 }
 
 #copyright {
-    color: rgb(237, 23, 130);
-    font-weight: 400;
+    color: #FF1D8E;
+    font-weight: 800;
     flex: 0 0 auto;
     display: flex;
     margin-top: 1rem;
