@@ -20,6 +20,9 @@
     background-color: rgba(24, 24, 24, 0.9) !important;
     border: solid #FF1D8E;
     border-style: inset;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .nav-logo {
@@ -38,7 +41,6 @@
 }
 
 .home-container {
-    /* margin: auto; */
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -65,15 +67,15 @@
 
 /* Body Gallery Page */
 
-/* .gallery-bdy {
-    background-image: url(/assets/images/visax-r9DV-EdDmWM-unsplash.jpg);
-} */
+.gallery-bdy {
+    background-image: url(/assets/images/Designer\ \(2\).jpeg);
+}
 
 .gallery-img {
     max-height: fit-content;
     max-width: fit-content;
     margin: 5%;
-
+    border: solid black;
 }
 
 /* Body Price List Page */
@@ -84,7 +86,7 @@
 }
 
 .main-pl-body {
-    background-color: rgba(24, 24, 24, 0.7);
+    background-color: rgba(24, 24, 24, 0.5);
 }
 
 .pricelist-heading {
