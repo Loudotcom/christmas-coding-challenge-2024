@@ -10,12 +10,6 @@
   
 /* Navbar */
 
-/* .navbar {
-    background-color: rgba(24, 24, 24, 0.9);
-    border: solid #FF1D8E;
-    border-style: inset;
-} */
-
 .main-navbar {
     background-color: rgba(24, 24, 24, 0.9) !important;
     border: solid #FF1D8E;
@@ -68,7 +62,7 @@
 /* Body Gallery Page */
 
 .gallery-bdy {
-    background-image: url(/assets/images/Designer\ \(2\).jpeg);
+    background-image: url(assets/images/Designer\ \(2\).jpeg);
 }
 
 .gallery-img {
